@@ -1,0 +1,14 @@
+configName: samd51_lan9253_evb
+folderName: ''
+format_version: v1.0
+frameworkPath: ../../..
+processor: ATSAMD51J19A
+projectName: ''
+settings:
+  PackageFilter: audio;bootloader;bootloader_apps_can;bootloader_apps_ethernet;bootloader_apps_i2c;bootloader_apps_sdcard;bootloader_apps_serial_memory;bootloader_apps_uart;bootloader_apps_usb;bsp;bt;core;core_apps_sam_d5x_e5x;core_apps_sam_e70_s70_v70_v71;crypto;cryptoauthlib;cryptoauthlib_apps;csp;csp_apps_sam_d5x_e5x;csp_apps_sam_e70_s70_v70_v71;csp_apps_sam_g55;ethercat;gfx;gfx_apps;gfx_apps_sam_d5x_e5x;mc_apps_sam_d5x_e5x;micrium_ucos3;motor_control;net;net_apps_pic32mx;net_apps_pic32mz;net_apps_sam_e70_v71;quick_docs;reference_apps;touch;usb
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
+  MERGE_STRATEGY: ALL
+  DFPPath: .\dev_packs\Microchip\SAMD51_DFP\3.3.68\samd51a\atdf\ATSAMD51J19A.atdf
