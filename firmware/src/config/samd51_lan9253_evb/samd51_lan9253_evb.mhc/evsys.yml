@@ -460,6 +460,13 @@ children:
       - type: Dynamic
         attributes: {id: adc0, value: 'false'}
   - type: Boolean
+    attributes: {id: GENERATOR_ADC0_WINMON_ACTIVE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: adc0, value: 'false'}
+  - type: Boolean
     attributes: {id: GENERATOR_EIC_EXTINT_0_ACTIVE}
     children:
     - type: Values

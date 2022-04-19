@@ -1,5 +1,5 @@
 /*******************************************************************************
-  LAN 9252 Driver Definitions Header File
+  LAN 9253 Driver Definitions Header File
 
   Company:
     Microchip Technology Inc.
@@ -17,7 +17,7 @@
 
 //DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2020 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2022 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -59,10 +59,9 @@
 #endif
 // DOM-IGNORE-END
 
-
 // *****************************************************************************
 // *****************************************************************************
-// Section: SPI or SQI peripheral Data Types
+// Section: SPI peripheral Data Types
 // *****************************************************************************
 // *****************************************************************************
 
@@ -79,13 +78,13 @@ typedef bool (* DRV_LAN9253_SPI_PLIB_IS_BUSY)(void);
 typedef void (* DRV_LAN9253_SPI_PLIB_CALLBACK_REGISTER)(DRV_LAN9253_SPI_PLIB_CALLBACK, uintptr_t);
 
 // *****************************************************************************
-/* LAN9252 Driver PLIB Interface Data
+/* LAN9253 Driver SPI PLIB Interface Data
 
   Summary:
-    Defines the data required to initialize the LAN9253 driver PLIB Interface.
+    Defines the data required to initialize the LAN9253 driver SPI PLIB Interface.
 
   Description:
-    This data type defines the data required to initialize the LAN9252 driver
+    This data type defines the data required to initialize the LAN9252 driver SPI
     PLIB Interface.
 
   Remarks:
@@ -95,7 +94,7 @@ typedef void (* DRV_LAN9253_SPI_PLIB_CALLBACK_REGISTER)(DRV_LAN9253_SPI_PLIB_CAL
 typedef struct
 {
 
-    /* LAN9253 PLIB SPI or SQI writeRead API */
+    /* LAN9253 PLIB SPI writeRead API */
     DRV_LAN9253_SPI_PLIB_WRITE_READ                spiWriteRead;
 
     /* LAN9253 PLIB SPI or SQI write API */
@@ -154,7 +153,7 @@ typedef struct
 /* LAN9253 Driver Util Initialization Data
 
   Summary:
-    Defines the data required to initialize the LAN9252 driver Util
+    Defines the data required to initialize the LAN9253 driver Util
 
   Description:
     This data type defines the data required to initialize or the LAN9252 driver Util.
@@ -165,10 +164,9 @@ typedef struct
 
 typedef struct
 {
-    /* Identifies the SPI or SQI PLIB API set to be used by the driver to access the
+    /* Identifies the SPI PLIB API set to be used by the driver to access the
      * peripheral. */
-    const DRV_LAN9253_UTIL_SPI_PLIB_INTERFACE*      spiPlib;    
-
+    const DRV_LAN9253_UTIL_SPI_PLIB_INTERFACE*      spiPlib;  
     /* Identifies the Timer PLIB API set to be used by the driver to access the
      * peripheral. */
     const DRV_LAN9253_UTIL_TMR_PLIB_INTERFACE*      timerPlib;

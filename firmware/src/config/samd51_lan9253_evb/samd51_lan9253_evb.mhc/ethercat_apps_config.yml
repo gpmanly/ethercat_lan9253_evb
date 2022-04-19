@@ -39,7 +39,7 @@ children:
     - type: Values
       children:
       - type: User
-        attributes: {value: 'C:\git\HarmonyFramework\ethercat\apps\ethercat_counter_foe_app\firmware\src\slave_stack\lan9253\Src'}
+        attributes: {value: 'C:\git\ethercat_lan9253_evb\firmware\src\slave_stack'}
   - type: File
     attributes: {id: SSC_LIST_FILE0}
     children:
@@ -68,7 +68,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/applInterface.h'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/applInterface.h'}
       - type: String
         attributes: {id: type}
         children:
@@ -101,7 +101,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/coeappl.c'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/coeappl.c'}
   - type: File
     attributes: {id: SSC_LIST_FILE10}
     children:
@@ -130,7 +130,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/emcy.c'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/emcy.c'}
       - type: String
         attributes: {id: type}
         children:
@@ -163,7 +163,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/emcy.h'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/emcy.h'}
       - type: String
         attributes: {id: type}
         children:
@@ -196,7 +196,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/esc.h'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/esc.h'}
       - type: String
         attributes: {id: type}
         children:
@@ -229,7 +229,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/mailbox.c'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/mailbox.c'}
       - type: String
         attributes: {id: type}
         children:
@@ -262,7 +262,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/mailbox.h'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/mailbox.h'}
       - type: String
         attributes: {id: type}
         children:
@@ -295,7 +295,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/objdef.c'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/objdef.c'}
       - type: String
         attributes: {id: type}
         children:
@@ -328,7 +328,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/objdef.h'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/objdef.h'}
       - type: String
         attributes: {id: type}
         children:
@@ -361,7 +361,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/sample_app.c'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/sample_app.c'}
   - type: File
     attributes: {id: SSC_LIST_FILE18}
     children:
@@ -390,7 +390,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/sample_app.h'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/sample_app.h'}
       - type: String
         attributes: {id: type}
         children:
@@ -423,7 +423,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/sample_appObjects.h'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/sample_appObjects.h'}
       - type: String
         attributes: {id: type}
         children:
@@ -456,7 +456,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/coeappl.h'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/coeappl.h'}
       - type: String
         attributes: {id: type}
         children:
@@ -489,7 +489,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/sdoserv.c'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/sdoserv.c'}
       - type: String
         attributes: {id: type}
         children:
@@ -522,7 +522,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/sdoserv.h'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/sdoserv.h'}
       - type: String
         attributes: {id: type}
         children:
@@ -730,7 +730,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/ecatappl.c'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/ecatappl.c'}
   - type: File
     attributes: {id: SSC_LIST_FILE4}
     children:
@@ -759,7 +759,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/ecatappl.h'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/ecatappl.h'}
       - type: String
         attributes: {id: type}
         children:
@@ -792,7 +792,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/ecatcoe.c'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/ecatcoe.c'}
   - type: File
     attributes: {id: SSC_LIST_FILE6}
     children:
@@ -821,7 +821,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/ecatcoe.h'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/ecatcoe.h'}
       - type: String
         attributes: {id: type}
         children:
@@ -854,7 +854,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/ecatslv.c'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/ecatslv.c'}
   - type: File
     attributes: {id: SSC_LIST_FILE8}
     children:
@@ -883,7 +883,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/ecatslv.h'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/ecatslv.h'}
       - type: String
         attributes: {id: type}
         children:
@@ -916,7 +916,7 @@ children:
       - type: String
         attributes: {id: source}
         children:
-        - {type: Value, value: 'C:/git/HarmonyFramework/ethercat/apps/ethercat_counter_foe_app/firmware/src/slave_stack/lan9253/Src/ecat_def.h'}
+        - {type: Value, value: 'C:/git/ethercat_lan9253_evb/firmware/src/slave_stack/ecat_def.h'}
       - type: String
         attributes: {id: type}
         children:
