@@ -58,6 +58,10 @@
                 <itemPath>../src/config/samd51_lan9253_evb/peripheral/sercom/i2c_master/plib_sercom_i2c_master_common.h</itemPath>
                 <itemPath>../src/config/samd51_lan9253_evb/peripheral/sercom/i2c_master/plib_sercom2_i2c_master.h</itemPath>
               </logicalFolder>
+              <logicalFolder name="f2" displayName="usart" projectFiles="true">
+                <itemPath>../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom0_usart.h</itemPath>
+                <itemPath>../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom_usart_common.h</itemPath>
+              </logicalFolder>
             </logicalFolder>
             <logicalFolder name="f13" displayName="systick" projectFiles="true">
               <itemPath>../src/config/samd51_lan9253_evb/peripheral/systick/plib_systick.h</itemPath>
@@ -279,6 +283,9 @@
               <logicalFolder name="f1" displayName="i2c_master" projectFiles="true">
                 <itemPath>../src/config/samd51_lan9253_evb/peripheral/sercom/i2c_master/plib_sercom2_i2c_master.c</itemPath>
               </logicalFolder>
+              <logicalFolder name="f2" displayName="usart" projectFiles="true">
+                <itemPath>../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom0_usart.c</itemPath>
+              </logicalFolder>
             </logicalFolder>
             <logicalFolder name="f13" displayName="systick" projectFiles="true">
               <itemPath>../src/config/samd51_lan9253_evb/peripheral/systick/plib_systick.c</itemPath>
@@ -332,8 +339,10 @@
         <itemPath>../src/config/samd51_lan9253_evb/samd51_lan9253_evb.mhc/nvmctrl.yml</itemPath>
         <itemPath>../src/config/samd51_lan9253_evb/samd51_lan9253_evb.mhc/project.yml</itemPath>
         <itemPath>../src/config/samd51_lan9253_evb/samd51_lan9253_evb.mhc/qspi.yml</itemPath>
+        <itemPath>../src/config/samd51_lan9253_evb/samd51_lan9253_evb.mhc/sercom0.yml</itemPath>
         <itemPath>../src/config/samd51_lan9253_evb/samd51_lan9253_evb.mhc/sercom2.yml</itemPath>
         <itemPath>../src/config/samd51_lan9253_evb/samd51_lan9253_evb.mhc/settings.yml</itemPath>
+        <itemPath>../src/config/samd51_lan9253_evb/samd51_lan9253_evb.mhc/stdio.yml</itemPath>
         <itemPath>../src/config/samd51_lan9253_evb/samd51_lan9253_evb.mhc/tc0.yml</itemPath>
         <itemPath>../src/config/samd51_lan9253_evb/samd51_lan9253_evb.mhc/tcc0.yml</itemPath>
       </logicalFolder>
@@ -1181,6 +1190,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0x400000-0x5fffff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/git/ethercat_lan9253_evb/firmware/samd51_lan9253_evb.X/debug/samd51_lan9253_evb/samd51_lan9253_evb_ptg"/>
         <property key="programoptions.eraseb4program" value="false"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

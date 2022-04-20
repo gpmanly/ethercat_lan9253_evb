@@ -133,6 +133,7 @@ const DRV_LAN9253_UTIL_INIT drvLAN9253InitData = {
 
 
 
+
 /*******************************************************************************
   Function:
     void SYS_Initialize ( void *data )
@@ -148,6 +149,7 @@ void SYS_Initialize ( void* data )
 
     NVMCTRL_Initialize( );
 
+
   
     PORT_Initialize();
 
@@ -159,6 +161,8 @@ void SYS_Initialize ( void* data )
     SERCOM2_I2C_Initialize();
 
     EVSYS_Initialize();
+
+    SERCOM0_USART_Initialize();
 
 	SYSTICK_TimerInitialize();
     EIC_Initialize();

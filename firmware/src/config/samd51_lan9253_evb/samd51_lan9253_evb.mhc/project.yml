@@ -55,13 +55,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 9D5EE038B893127B787BC03DFA6B467F
-- generatedChecksum: 5E3113E8A5AD750889C2331AF8FA091C
+- generatedChecksum: 0E1F103C8BD0BB665A35B346BDECEB78
   logicalPath: config/samd51_lan9253_evb
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 5E3113E8A5AD750889C2331AF8FA091C
+  userChecksum: 0E1F103C8BD0BB665A35B346BDECEB78
 - generatedChecksum: F74C080AAD4C1636F20A7DF09232E12C
   logicalPath: config/samd51_lan9253_evb
   name: interrupts.c
@@ -104,13 +104,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 73218BDC96DDBA3340D37C4738D55A10
-- generatedChecksum: B6F3329CC5CFF44B1D21ABD0814E084C
+- generatedChecksum: 40420DF2E6C1005B4400A7AD694D33DF
   logicalPath: config/samd51_lan9253_evb/peripheral/clock
   name: plib_clock.c
   physicalPath: peripheral/clock
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B6F3329CC5CFF44B1D21ABD0814E084C
+  userChecksum: 40420DF2E6C1005B4400A7AD694D33DF
 - generatedChecksum: D903E8D9DCBC4107D0AA841E07F653BA
   logicalPath: config/samd51_lan9253_evb/peripheral/cmcc
   name: plib_cmcc.c
@@ -146,13 +146,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 903E0413B53BA9E8980C740E65F59966
-- generatedChecksum: 7DA7953C32CAB8FE88DCE00D1F204FC2
+- generatedChecksum: D390511F62640FBCA5A2C3599A37E8B6
   logicalPath: config/samd51_lan9253_evb/peripheral/port
   name: plib_port.c
   physicalPath: peripheral/port
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7DA7953C32CAB8FE88DCE00D1F204FC2
+  userChecksum: D390511F62640FBCA5A2C3599A37E8B6
 - generatedChecksum: AADAC469194EB7C1F56BB96E330267FC
   logicalPath: config/samd51_lan9253_evb/peripheral/qspi
   name: plib_qspi_spi.c
@@ -160,6 +160,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: AADAC469194EB7C1F56BB96E330267FC
+- generatedChecksum: 393A40044C0FADAC32D0BFAF4E53F247
+  logicalPath: config/samd51_lan9253_evb/peripheral/sercom/usart
+  name: plib_sercom0_usart.c
+  physicalPath: peripheral/sercom/usart
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 393A40044C0FADAC32D0BFAF4E53F247
 - generatedChecksum: EDBD2438D82D0D9F198EAEB85B56B092
   logicalPath: config/samd51_lan9253_evb/peripheral/sercom/i2c_master
   name: plib_sercom2_i2c_master.c
@@ -209,13 +216,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: F90BC31146188C748D0CEBFE196F2CAA
-- generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
+- generatedChecksum: BF53CCDA943397CF00697521A2939B3C
   logicalPath: config/samd51_lan9253_evb/stdio
   name: xc32_monitor.c
   physicalPath: stdio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7806B30ECAE0D18D08CD583D8775530D
+  userChecksum: BF53CCDA943397CF00697521A2939B3C
 - generatedChecksum: AF2C84D8AE89E23E5C099EBF9098846B
   logicalPath: packs/ATSAMD51J19A_DFP/component
   name: ac.h
@@ -384,13 +391,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 396CEBB2CDC7E9FEBD0F783C2F1F8A7B
-- generatedChecksum: 27B1DF6B78B974DDA42DB0D0528AFC57
+- generatedChecksum: 4870947F502B5FAC4610DAA5C4EF4F1A
   logicalPath: config/samd51_lan9253_evb
   name: definitions.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 27B1DF6B78B974DDA42DB0D0528AFC57
+  userChecksum: 4870947F502B5FAC4610DAA5C4EF4F1A
 - generatedChecksum: C7B401A7A79B2CD83AC1C22FA376CA3C
   logicalPath: config/samd51_lan9253_evb
   name: device.h
@@ -825,6 +832,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 61223D55D98E61FC2D152498E436E050
+- generatedChecksum: 9E847139EB4A35248CEAA3CF830D18DD
+  logicalPath: config/samd51_lan9253_evb/peripheral/sercom/usart
+  name: plib_sercom0_usart.h
+  physicalPath: peripheral/sercom/usart
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 9E847139EB4A35248CEAA3CF830D18DD
 - generatedChecksum: 1CE55E64E3F2FCF85973AB9429E48850
   logicalPath: config/samd51_lan9253_evb/peripheral/sercom/i2c_master
   name: plib_sercom2_i2c_master.h
@@ -839,6 +853,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 555AC09B32F566FBFB0A0505CF73ABD6
+- generatedChecksum: 881B1D67FA4C320BBD6AC86344695C9C
+  logicalPath: config/samd51_lan9253_evb/peripheral/sercom/usart
+  name: plib_sercom_usart_common.h
+  physicalPath: peripheral/sercom/usart
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 881B1D67FA4C320BBD6AC86344695C9C
 - generatedChecksum: DA358017BFFD042779F8D05DB8BFB9C3
   logicalPath: config/samd51_lan9253_evb/peripheral/systick
   name: plib_systick.h

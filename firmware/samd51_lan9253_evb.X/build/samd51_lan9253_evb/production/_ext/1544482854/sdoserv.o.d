@@ -111,6 +111,8 @@ build/samd51_lan9253_evb/production/_ext/1544482854/sdoserv.o: \
  ../src/config/samd51_lan9253_evb/peripheral/sercom/i2c_master/plib_sercom2_i2c_master.h \
  ../src/config/samd51_lan9253_evb/peripheral/sercom/i2c_master/plib_sercom_i2c_master_common.h \
  ../src/config/samd51_lan9253_evb/peripheral/evsys/plib_evsys.h \
+ ../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom0_usart.h \
+ ../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom_usart_common.h \
  ../src/config/samd51_lan9253_evb/peripheral/port/plib_port.h \
  ../src/config/samd51_lan9253_evb/peripheral/clock/plib_clock.h \
  ../src/config/samd51_lan9253_evb/peripheral/nvic/plib_nvic.h \
@@ -358,6 +360,10 @@ build/samd51_lan9253_evb/production/_ext/1544482854/sdoserv.o: \
 ../src/config/samd51_lan9253_evb/peripheral/sercom/i2c_master/plib_sercom_i2c_master_common.h:
 
 ../src/config/samd51_lan9253_evb/peripheral/evsys/plib_evsys.h:
+
+../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom0_usart.h:
+
+../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom_usart_common.h:
 
 ../src/config/samd51_lan9253_evb/peripheral/port/plib_port.h:
 

@@ -1,5 +1,5 @@
-build/samd51_lan9253_evb/production/_ext/715110505/initialization.o: \
- ../src/config/samd51_lan9253_evb/initialization.c \
+build/samd51_lan9253_evb/production/_ext/639329829/bme280.o: \
+ ../src/click_routines/weather/bme280.c \
  ../src/config/samd51_lan9253_evb/definitions.h \
  ../src/config/samd51_lan9253_evb/peripheral/nvmctrl/plib_nvmctrl.h \
  ../src/config/samd51_lan9253_evb/device.h \
@@ -118,7 +118,6 @@ build/samd51_lan9253_evb/production/_ext/715110505/initialization.o: \
  ../src/config/samd51_lan9253_evb/peripheral/tc/plib_tc0.h \
  ../src/config/samd51_lan9253_evb/peripheral/tc/plib_tc_common.h \
  ../src/config/samd51_lan9253_evb/driver/lan9253/drv_lan9253_ecat_util.h \
- ../src/config/samd51_lan9253_evb/definitions.h \
  ../src/slave_stack/ecat_def.h \
  ../src/config/samd51_lan9253_evb/driver/lan9253/drv_lan9253_definitions.h \
  ../src/config/samd51_lan9253_evb/peripheral/qspi/plib_qspi_spi.h \
@@ -126,7 +125,9 @@ build/samd51_lan9253_evb/production/_ext/715110505/initialization.o: \
  ../src/config/samd51_lan9253_evb/peripheral/tcc/plib_tcc0.h \
  ../src/config/samd51_lan9253_evb/peripheral/tcc/plib_tcc_common.h \
  ../src/config/samd51_lan9253_evb/peripheral/adc/plib_adc0.h \
- ../src/config/samd51_lan9253_evb/peripheral/adc/plib_adc_common.h
+ ../src/config/samd51_lan9253_evb/peripheral/adc/plib_adc_common.h \
+ ../src/click_routines/weather/bme280.h \
+ ../src/click_routines/weather/../click_interface.h
 
 ../src/config/samd51_lan9253_evb/definitions.h:
 
@@ -364,8 +365,6 @@ build/samd51_lan9253_evb/production/_ext/715110505/initialization.o: \
 
 ../src/config/samd51_lan9253_evb/driver/lan9253/drv_lan9253_ecat_util.h:
 
-../src/config/samd51_lan9253_evb/definitions.h:
-
 ../src/slave_stack/ecat_def.h:
 
 ../src/config/samd51_lan9253_evb/driver/lan9253/drv_lan9253_definitions.h:
@@ -381,3 +380,7 @@ build/samd51_lan9253_evb/production/_ext/715110505/initialization.o: \
 ../src/config/samd51_lan9253_evb/peripheral/adc/plib_adc0.h:
 
 ../src/config/samd51_lan9253_evb/peripheral/adc/plib_adc_common.h:
+
+../src/click_routines/weather/bme280.h:
+
+../src/click_routines/weather/../click_interface.h:

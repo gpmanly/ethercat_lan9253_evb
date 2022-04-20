@@ -1,7 +1,8 @@
-build/samd51_lan9253_evb/production/_ext/715110505/initialization.o: \
- ../src/config/samd51_lan9253_evb/initialization.c \
- ../src/config/samd51_lan9253_evb/definitions.h \
- ../src/config/samd51_lan9253_evb/peripheral/nvmctrl/plib_nvmctrl.h \
+build/samd51_lan9253_evb/production/_ext/222858286/plib_sercom0_usart.o: \
+ ../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom0_usart.c \
+ ../src/config/samd51_lan9253_evb/interrupts.h \
+ ../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom0_usart.h \
+ ../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom_usart_common.h \
  ../src/config/samd51_lan9253_evb/device.h \
  ../src/packs/ATSAMD51J19A_DFP/samd51j19a.h \
  ../src/packs/CMSIS/CMSIS/Core/Include/core_cm4.h \
@@ -103,34 +104,13 @@ build/samd51_lan9253_evb/production/_ext/715110505/initialization.o: \
  ../src/config/samd51_lan9253_evb/device_cache.h \
  ../src/config/samd51_lan9253_evb/device.h \
  ../src/config/samd51_lan9253_evb/toolchain_specifics.h \
- ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h \
- ../src/config/samd51_lan9253_evb/peripheral/sercom/i2c_master/plib_sercom2_i2c_master.h \
- ../src/config/samd51_lan9253_evb/peripheral/sercom/i2c_master/plib_sercom_i2c_master_common.h \
- ../src/config/samd51_lan9253_evb/peripheral/evsys/plib_evsys.h \
- ../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom0_usart.h \
- ../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom_usart_common.h \
- ../src/config/samd51_lan9253_evb/peripheral/port/plib_port.h \
- ../src/config/samd51_lan9253_evb/peripheral/clock/plib_clock.h \
- ../src/config/samd51_lan9253_evb/peripheral/nvic/plib_nvic.h \
- ../src/config/samd51_lan9253_evb/peripheral/systick/plib_systick.h \
- ../src/config/samd51_lan9253_evb/peripheral/cmcc/plib_cmcc.h \
- ../src/config/samd51_lan9253_evb/peripheral/eic/plib_eic.h \
- ../src/config/samd51_lan9253_evb/peripheral/tc/plib_tc0.h \
- ../src/config/samd51_lan9253_evb/peripheral/tc/plib_tc_common.h \
- ../src/config/samd51_lan9253_evb/driver/lan9253/drv_lan9253_ecat_util.h \
- ../src/config/samd51_lan9253_evb/definitions.h \
- ../src/slave_stack/ecat_def.h \
- ../src/config/samd51_lan9253_evb/driver/lan9253/drv_lan9253_definitions.h \
- ../src/config/samd51_lan9253_evb/peripheral/qspi/plib_qspi_spi.h \
- ../src/config/samd51_lan9253_evb/peripheral/qspi/plib_qspi_common.h \
- ../src/config/samd51_lan9253_evb/peripheral/tcc/plib_tcc0.h \
- ../src/config/samd51_lan9253_evb/peripheral/tcc/plib_tcc_common.h \
- ../src/config/samd51_lan9253_evb/peripheral/adc/plib_adc0.h \
- ../src/config/samd51_lan9253_evb/peripheral/adc/plib_adc_common.h
+ ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h
 
-../src/config/samd51_lan9253_evb/definitions.h:
+../src/config/samd51_lan9253_evb/interrupts.h:
 
-../src/config/samd51_lan9253_evb/peripheral/nvmctrl/plib_nvmctrl.h:
+../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom0_usart.h:
+
+../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom_usart_common.h:
 
 ../src/config/samd51_lan9253_evb/device.h:
 
@@ -335,49 +315,3 @@ build/samd51_lan9253_evb/production/_ext/715110505/initialization.o: \
 ../src/config/samd51_lan9253_evb/toolchain_specifics.h:
 
 ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h:
-
-../src/config/samd51_lan9253_evb/peripheral/sercom/i2c_master/plib_sercom2_i2c_master.h:
-
-../src/config/samd51_lan9253_evb/peripheral/sercom/i2c_master/plib_sercom_i2c_master_common.h:
-
-../src/config/samd51_lan9253_evb/peripheral/evsys/plib_evsys.h:
-
-../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom0_usart.h:
-
-../src/config/samd51_lan9253_evb/peripheral/sercom/usart/plib_sercom_usart_common.h:
-
-../src/config/samd51_lan9253_evb/peripheral/port/plib_port.h:
-
-../src/config/samd51_lan9253_evb/peripheral/clock/plib_clock.h:
-
-../src/config/samd51_lan9253_evb/peripheral/nvic/plib_nvic.h:
-
-../src/config/samd51_lan9253_evb/peripheral/systick/plib_systick.h:
-
-../src/config/samd51_lan9253_evb/peripheral/cmcc/plib_cmcc.h:
-
-../src/config/samd51_lan9253_evb/peripheral/eic/plib_eic.h:
-
-../src/config/samd51_lan9253_evb/peripheral/tc/plib_tc0.h:
-
-../src/config/samd51_lan9253_evb/peripheral/tc/plib_tc_common.h:
-
-../src/config/samd51_lan9253_evb/driver/lan9253/drv_lan9253_ecat_util.h:
-
-../src/config/samd51_lan9253_evb/definitions.h:
-
-../src/slave_stack/ecat_def.h:
-
-../src/config/samd51_lan9253_evb/driver/lan9253/drv_lan9253_definitions.h:
-
-../src/config/samd51_lan9253_evb/peripheral/qspi/plib_qspi_spi.h:
-
-../src/config/samd51_lan9253_evb/peripheral/qspi/plib_qspi_common.h:
-
-../src/config/samd51_lan9253_evb/peripheral/tcc/plib_tcc0.h:
-
-../src/config/samd51_lan9253_evb/peripheral/tcc/plib_tcc_common.h:
-
-../src/config/samd51_lan9253_evb/peripheral/adc/plib_adc0.h:
-
-../src/config/samd51_lan9253_evb/peripheral/adc/plib_adc_common.h:
