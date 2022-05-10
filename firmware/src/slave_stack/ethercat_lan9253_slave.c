@@ -270,7 +270,7 @@ UINT16 APPL_GenerateMapping(UINT16 *pInputSize,UINT16 *pOutputSize)
 void APPL_InputMapping(UINT16* pData)
 {
     UINT32 *pTemp = (UINT32*)pData;
-    //HW_EscReadByte(Inputs0x6000.DigioIn, 0xF19);
+    HW_EscReadByte(Inputs0x6000.DigioIn, 0xF19);
     *pTemp = Inputs0x6000.DigioIn;
     pTemp++;
     *pTemp = Inputs0x6000.SensorAnalog;
@@ -304,8 +304,7 @@ void APPL_OutputMapping(UINT16* pData)
 *////////////////////////////////////////////////////////////////////////////////////////
 void APPL_Application(void)
 {
-    //HW_EscWriteByte(Outputs0x7010.DigioOut, 0xF10);
-    Inputs0x6000.DigioIn = Outputs0x7010.DigioOut;
+    HW_EscWriteByte(Outputs0x7010.DigioOut, 0xF10);
     
     //Manipulate PWM
     TCC0_PWM24bitDutySet(TCC0_CHANNEL2, Outputs0x7010.Servo);
@@ -313,11 +312,10 @@ void APPL_Application(void)
     //Read Potentiometer Value
     Inputs0x6000.SensorAnalog = (UINT32)ADC0_ConversionResultGet();
     
-    //Read Weather Click Values
-    //Weather_readSensors();
-    Inputs0x6000.Temperature = (UINT32)Weather_getTemperatureDegC();
-    Inputs0x6000.Pressure = (UINT32)Weather_getPressureKPa();
-    Inputs0x6000.Humidity = (UINT32)Weather_getHumidityRH();
+    //Fetch Read Weather Click Values
+    Inputs0x6000.Temperature = (uint32_t)Weather_getTemperatureDegC();
+    Inputs0x6000.Pressure = (uint32_t)Weather_getPressureKPa();
+    Inputs0x6000.Humidity = (uint32_t)Weather_getHumidityRH();
 }
 
 #if EXPLICIT_DEVICE_ID
