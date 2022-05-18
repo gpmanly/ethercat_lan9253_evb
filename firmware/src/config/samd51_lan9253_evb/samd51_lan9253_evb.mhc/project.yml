@@ -1,11 +1,18 @@
 files:
-- generatedChecksum: 60B2DEC75552C7E059A8810598CC8588
+- generatedChecksum: 1D01444E30A152D1B38CF175A785813B
+  logicalPath: slave_stack
+  name: bootmode.c
+  physicalPath: ../../slave_stack
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 1D01444E30A152D1B38CF175A785813B
+- generatedChecksum: 5A49DAF1D5F434F91A44163AF2FEA594
   logicalPath: slave_stack
   name: coeappl.c
   physicalPath: ../../slave_stack
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 60B2DEC75552C7E059A8810598CC8588
+  userChecksum: 5A49DAF1D5F434F91A44163AF2FEA594
 - generatedChecksum: 7AA27AADBE552E53922D60DD0B3AC12F
   logicalPath: config/samd51_lan9253_evb/driver/lan9253
   name: drv_lan9253.c
@@ -20,13 +27,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 0AD4BED14FC5C84C3AA653257C159D78
-- generatedChecksum: 8CAF569B89E74432ED9811D88A2C66BC
+- generatedChecksum: 3EE4A4D97F82F774F29716EBCC929780
   logicalPath: slave_stack
   name: ecatappl.c
   physicalPath: ../../slave_stack
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8CAF569B89E74432ED9811D88A2C66BC
+  userChecksum: 3EE4A4D97F82F774F29716EBCC929780
 - generatedChecksum: 2A37B3D13944E83BA790288CDE1143E3
   logicalPath: slave_stack
   name: ecatcoe.c
@@ -34,13 +41,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 2A37B3D13944E83BA790288CDE1143E3
-- generatedChecksum: 66AB7713380ADBA4D1A8839941DA537C
+- generatedChecksum: 1CDC3082427E2FE3FEBAECBC37C6FD25
+  logicalPath: slave_stack
+  name: ecatfoe.c
+  physicalPath: ../../slave_stack
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 1CDC3082427E2FE3FEBAECBC37C6FD25
+- generatedChecksum: D2FDA46F8CE942EDB38A299EE64F89B1
   logicalPath: slave_stack
   name: ecatslv.c
   physicalPath: ../../slave_stack
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 66AB7713380ADBA4D1A8839941DA537C
+  userChecksum: D2FDA46F8CE942EDB38A299EE64F89B1
 - generatedChecksum: 19240ADA643084032A1817AB05CEEADF
   logicalPath: slave_stack
   name: emcy.c
@@ -48,6 +62,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 19240ADA643084032A1817AB05CEEADF
+- generatedChecksum: 32618A277D4BD842F94808EE3C8149C7
+  logicalPath: slave_stack
+  name: ethercat_lan9253_slave.c
+  physicalPath: ../../slave_stack
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 32618A277D4BD842F94808EE3C8149C7
 - generatedChecksum: 9D5EE038B893127B787BC03DFA6B467F
   logicalPath: config/samd51_lan9253_evb
   name: exceptions.c
@@ -55,6 +76,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 9D5EE038B893127B787BC03DFA6B467F
+- generatedChecksum: 7B5215AF785AE32B29C808A175D6A14E
+  logicalPath: slave_stack
+  name: foeappl.c
+  physicalPath: ../../slave_stack
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 7B5215AF785AE32B29C808A175D6A14E
 - generatedChecksum: 0E1F103C8BD0BB665A35B346BDECEB78
   logicalPath: config/samd51_lan9253_evb
   name: initialization.c
@@ -62,13 +90,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 0E1F103C8BD0BB665A35B346BDECEB78
-- generatedChecksum: F74C080AAD4C1636F20A7DF09232E12C
+- generatedChecksum: BCBD33D0F8A66DFC62476F4D4150C2E5
   logicalPath: config/samd51_lan9253_evb
   name: interrupts.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F74C080AAD4C1636F20A7DF09232E12C
+  userChecksum: BCBD33D0F8A66DFC62476F4D4150C2E5
 - generatedChecksum: 6513F2461B8F476B68CA73906086047F
   logicalPath: config/samd51_lan9253_evb
   name: libc_syscalls.c
@@ -76,13 +104,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 6513F2461B8F476B68CA73906086047F
-- generatedChecksum: E1E160F3EEDD5818C161E3949314725B
+- generatedChecksum: 044F8392A876DD7665AAF6F2CF2CE2E7
   logicalPath: slave_stack
   name: mailbox.c
   physicalPath: ../../slave_stack
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E1E160F3EEDD5818C161E3949314725B
+  userChecksum: 044F8392A876DD7665AAF6F2CF2CE2E7
 - generatedChecksum: null
   logicalPath: ''
   name: main.c
@@ -188,20 +216,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: B064B29D8518E69CCF538E5BAD9CECF2
-- generatedChecksum: 29646E41608946F09CFEA339D19A4B45
+- generatedChecksum: AC7FEB712581FF996BDAD4806556731C
   logicalPath: config/samd51_lan9253_evb/peripheral/tcc
   name: plib_tcc0.c
   physicalPath: peripheral/tcc
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 29646E41608946F09CFEA339D19A4B45
-- generatedChecksum: 78C302F657AC68B2D05732F6A5FA72CA
-  logicalPath: slave_stack
-  name: sample_app.c
-  physicalPath: ../../slave_stack
-  security: NON_SECURE
-  type: SOURCE
-  userChecksum: 78C302F657AC68B2D05732F6A5FA72CA
+  userChecksum: AC7FEB712581FF996BDAD4806556731C
 - generatedChecksum: AA16290033E9F082D4FFFF1CB5CBB75E
   logicalPath: slave_stack
   name: sdoserv.c
@@ -272,13 +293,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 1A35FC1864423E54D9A26604157AA3E5
-- generatedChecksum: 5F77B1B6539DA556F7DD096FADD98393
+- generatedChecksum: 240ADC4F61D386DEDF35907F12E7CA7C
   logicalPath: slave_stack
   name: applInterface.h
   physicalPath: ../../slave_stack
   security: NON_SECURE
   type: HEADER
-  userChecksum: 5F77B1B6539DA556F7DD096FADD98393
+  userChecksum: 240ADC4F61D386DEDF35907F12E7CA7C
+- generatedChecksum: 579E1E1CB5806E6B3466B402826C15CF
+  logicalPath: slave_stack
+  name: bootmode.h
+  physicalPath: ../../slave_stack
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 579E1E1CB5806E6B3466B402826C15CF
 - generatedChecksum: 14F1AD56D242EFD0AF76849C6ADFECC4
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cachel1_armv7.h
@@ -468,13 +496,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 984E9FD3B62FB522D9A6F6EFC3D606A6
-- generatedChecksum: 92B01FFCBAA11EEFA5E62D344990DF3D
+- generatedChecksum: F53E123FD55D22738BC8E634A2D385A1
   logicalPath: slave_stack
   name: ecat_def.h
   physicalPath: ../../slave_stack
   security: NON_SECURE
   type: HEADER
-  userChecksum: 92B01FFCBAA11EEFA5E62D344990DF3D
+  userChecksum: F53E123FD55D22738BC8E634A2D385A1
 - generatedChecksum: 1976D43F554CCD21D4503E802CA881FB
   logicalPath: slave_stack
   name: ecatappl.h
@@ -489,13 +517,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 9714F7686D284256A5984D8F85952673
-- generatedChecksum: 3A2ABBFD453A2F599B6FD761F39C5914
+- generatedChecksum: 4CC95999F7F781A4C4571EF4F7F3A9B5
+  logicalPath: slave_stack
+  name: ecatfoe.h
+  physicalPath: ../../slave_stack
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 4CC95999F7F781A4C4571EF4F7F3A9B5
+- generatedChecksum: 258A92C3CA5E195C87A53996DC2F2F48
   logicalPath: slave_stack
   name: ecatslv.h
   physicalPath: ../../slave_stack
   security: NON_SECURE
   type: HEADER
-  userChecksum: 3A2ABBFD453A2F599B6FD761F39C5914
+  userChecksum: 258A92C3CA5E195C87A53996DC2F2F48
 - generatedChecksum: 8D26C661401748DBB2E5733D61EBEE41
   logicalPath: packs/ATSAMD51J19A_DFP/component
   name: eic.h
@@ -531,6 +566,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 33800B34C685D06E38AAB8C241631E3A
+- generatedChecksum: CC3B8E47E540852DA97769B6C8FE31D9
+  logicalPath: slave_stack
+  name: ethercat_lan9253_slave.h
+  physicalPath: ../../slave_stack
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: CC3B8E47E540852DA97769B6C8FE31D9
+- generatedChecksum: C6F61F0FB48710459E5F19A168B2C515
+  logicalPath: slave_stack
+  name: ethercat_lan9253_slaveObjects.h
+  physicalPath: ../../slave_stack
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: C6F61F0FB48710459E5F19A168B2C515
 - generatedChecksum: E5BDE4E4D1945D57A7691493F37E398F
   logicalPath: packs/ATSAMD51J19A_DFP/component
   name: evsys.h
@@ -545,6 +594,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: CDFD41442552264C091B7A51013C16C2
+- generatedChecksum: 1ECFF163B4B70DDD1A36036252ED54D4
+  logicalPath: slave_stack
+  name: foeappl.h
+  physicalPath: ../../slave_stack
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 1ECFF163B4B70DDD1A36036252ED54D4
 - generatedChecksum: B020D8B6C0BE87086D47BC8A8401CF70
   logicalPath: packs/ATSAMD51J19A_DFP/component
   name: freqm.h
@@ -629,13 +685,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: A074B4DF31A214D5894D0E4024BA9F93
-- generatedChecksum: 334FB3C162D15BF1AB0639D73B6EA7BF
+- generatedChecksum: DEDAB6954426F6C59F2BA4CA21B84A2C
   logicalPath: config/samd51_lan9253_evb
   name: interrupts.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 334FB3C162D15BF1AB0639D73B6EA7BF
+  userChecksum: DEDAB6954426F6C59F2BA4CA21B84A2C
 - generatedChecksum: 5E471DFF75BEC0A592372F4D7D63967F
   logicalPath: slave_stack
   name: mailbox.h
@@ -1000,20 +1056,6 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 53951A2FC619FD53B57CD007B719EDE5
-- generatedChecksum: CCFE611316C9779F2D7CB619FE1E10C4
-  logicalPath: slave_stack
-  name: sample_app.h
-  physicalPath: ../../slave_stack
-  security: NON_SECURE
-  type: HEADER
-  userChecksum: CCFE611316C9779F2D7CB619FE1E10C4
-- generatedChecksum: 15291879233C3172D584EF535058ED76
-  logicalPath: slave_stack
-  name: sample_appObjects.h
-  physicalPath: ../../slave_stack
-  security: NON_SECURE
-  type: HEADER
-  userChecksum: 15291879233C3172D584EF535058ED76
 - generatedChecksum: 9E11189E79F0BA286CE6DE8C11A07589
   logicalPath: packs/ATSAMD51J19A_DFP/component
   name: sdhc.h

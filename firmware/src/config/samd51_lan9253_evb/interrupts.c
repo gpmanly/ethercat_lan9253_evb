@@ -82,6 +82,7 @@ extern void UsageFault_Handler         ( void ) __attribute__((weak, alias("Dumm
 extern void SVCall_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void DebugMonitor_Handler       ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void PendSV_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void SysTick_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void PM_Handler                 ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void MCLK_Handler               ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void OSCCTRL_XOSC0_Handler      ( void ) __attribute__((weak, alias("Dummy_Handler")));

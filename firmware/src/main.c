@@ -27,7 +27,7 @@
 #include <stdlib.h>                     // Defines EXIT_FAILURE
 #include "definitions.h"                // SYS function prototypes
 #include  "app.h"
-#include "click_routines/weather/weather_example.h"
+#include "weather.h"
 
 #define ADC_VREF                (3.3f)
 
@@ -48,13 +48,9 @@ int main ( void )
     ADC0_Enable();
     ADC0_ConversionStart();
     
-    SYSTICK_DelayMs(1000);
-    printf("Hello, I'm Alive! \r\n");
-    
     while ( true )
     {
-        /* Maintain state machines of all polled MPLAB Harmony modules. */
-        Weather_example();
+        
         APP_Tasks ( );
         
     }

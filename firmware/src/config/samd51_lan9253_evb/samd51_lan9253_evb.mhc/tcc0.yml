@@ -265,7 +265,7 @@ children:
       - type: String
         attributes: {id: text}
         children:
-        - {type: Value, value: '**** PWM Frequency is 50 Hz ****'}
+        - {type: Value, value: '**** PWM Frequency is 49 Hz ****'}
   - type: Boolean
     attributes: {id: TCC_INTENSET_OVF}
     children:
@@ -286,7 +286,7 @@ children:
     - type: Values
       children:
       - type: User
-        attributes: {value: '4600'}
+        attributes: {value: '4715'}
   - type: Boolean
     attributes: {id: TCC_PWM_INTERRUPT_MODE}
     children:

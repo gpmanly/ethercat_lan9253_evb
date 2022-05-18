@@ -532,7 +532,7 @@ children:
       - type: Dynamic
         attributes: {id: core, value: 'true'}
       - type: User
-        attributes: {value: 'true'}
+        attributes: {value: 'false'}
   - type: String
     attributes: {id: NVIC_-1_0_HANDLER}
     children:
@@ -2229,7 +2229,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'false'}
+        attributes: {id: core, value: 'true'}
   - type: Boolean
     attributes: {id: SysTick_INTERRUPT_HANDLER_LOCK}
     children:
@@ -2508,6 +2508,8 @@ children:
     children:
     - type: Values
       children:
+      - type: Dynamic
+        attributes: {id: core, value: 'false'}
       - type: User
         attributes: {value: 'true'}
   - type: Boolean
