@@ -59,7 +59,8 @@
 #include "ethercat_configuration.h"
 #include "drv_lan9253_ecat_util.h"
 #include "slave_stack/applInterface.h"
-#include "slave_stack/sample_app.h"
+#include "slave_stack/ethercat_lan9253_slave.h"
+#include "weather.h"
 
 #if defined(ETHERCAT_USE_FOE)  
 //-----------------------------------------------------------------------------
@@ -180,11 +181,7 @@ void APP_Tasks ( void )
                 // EtherCAT Initialization after NVIC initialization
                 ECAT_Initialization();
                 MainInit();
-#if defined(ETHERCAT_USE_FOE)  
-                BL_FOE_Application();
-                
-                bRunApplication = TRUE;
-#endif                
+               
                 appData.state = APP_STATE_SERVICE_TASKS;
             }
             break;
@@ -194,14 +191,9 @@ void APP_Tasks ( void )
         {
             do
             {		
-#if defined(ETHERCAT_USE_FOE)                
-                if(APP_FW_GetDownloadStateFinished() == 1)
-                {
-                    APP_BankSwitch();
-                    APP_RunApplication();
-                }
-#endif                
-                MainLoop();
+                Weather_readSensors(); //Initiate Weather Click and Read Weather Values
+                
+                MainLoop(); //EtherCAT Mainloop
 
             } while (bRunApplication == TRUE);
             break;
