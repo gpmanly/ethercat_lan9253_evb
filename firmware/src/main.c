@@ -27,6 +27,7 @@
 #include <stdlib.h>                     // Defines EXIT_FAILURE
 #include "definitions.h"                // SYS function prototypes
 #include  "app.h"
+#include "weather.h"
 
 #define ADC_VREF                (3.3f)
 
@@ -49,7 +50,7 @@ int main ( void )
     
     while ( true )
     {
-        /* Maintain state machines of all polled MPLAB Harmony modules. */
+        
         APP_Tasks ( );
         
     }

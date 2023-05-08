@@ -48,20 +48,22 @@
 #include <stdint.h>
 #include <stddef.h>
 #include <stdbool.h>
+#include <stdio.h>
 #include "peripheral/nvmctrl/plib_nvmctrl.h"
-#include "peripheral/qspi/plib_qspi_spi.h"
+#include "peripheral/sercom/i2c_master/plib_sercom2_i2c_master.h"
 #include "peripheral/evsys/plib_evsys.h"
-#include "peripheral/tcc/plib_tcc0.h"
-#include "peripheral/adc/plib_adc0.h"
+#include "peripheral/sercom/usart/plib_sercom0_usart.h"
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
+#include "peripheral/systick/plib_systick.h"
 #include "peripheral/cmcc/plib_cmcc.h"
 #include "peripheral/eic/plib_eic.h"
 #include "peripheral/tc/plib_tc0.h"
 #include "driver/lan9253/drv_lan9253_ecat_util.h"
-
-uint16_t adc_count;
+#include "peripheral/qspi/plib_qspi_spi.h"
+#include "peripheral/tcc/plib_tcc0.h"
+#include "peripheral/adc/plib_adc0.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -70,6 +72,9 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* CPU clock frequency */
+#define CPU_CLOCK_FREQUENCY 120000000
 
 // *****************************************************************************
 // *****************************************************************************

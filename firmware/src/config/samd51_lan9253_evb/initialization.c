@@ -64,7 +64,7 @@
 // *****************************************************************************
 // <editor-fold defaultstate="collapsed" desc="EtherCAT Main Initialization Data">
 
-/* SPI or SQI PLIB Interface Initialization for ethercat LAN driver */
+/* SQI PLIB Interface Initialization for ethercat LAN driver */
 const DRV_LAN9253_UTIL_SPI_PLIB_INTERFACE drvLAN9253SpiPlibAPI = {
 
 	/* SPI PLIB WriteRead function */
@@ -82,7 +82,6 @@ const DRV_LAN9253_UTIL_SPI_PLIB_INTERFACE drvLAN9253SpiPlibAPI = {
 	/* SPI PLIB Callback Register */
 	.spiCallbackRegister = (DRV_LAN9253_SPI_PLIB_CALLBACK_REGISTER)QSPI_CallbackRegister,
 };
-
 const DRV_LAN9253_UTIL_TMR_PLIB_INTERFACE drvLAN9253TimerPlibAPI = {
 
 	.timerCallbackSet = (DRV_LAN9253_TMR_PLIB_CALLBACK_REGISTER)TC0_TimerCallbackRegister,
@@ -94,7 +93,6 @@ const DRV_LAN9253_UTIL_TMR_PLIB_INTERFACE drvLAN9253TimerPlibAPI = {
 
 /* LAN9253 Driver Initialization Data */
 const DRV_LAN9253_UTIL_INIT drvLAN9253InitData = {
-
 	/* SPI PLIB API  interface*/
 	.spiPlib = &drvLAN9253SpiPlibAPI,
 	
@@ -135,6 +133,7 @@ const DRV_LAN9253_UTIL_INIT drvLAN9253InitData = {
 
 
 
+
 /*******************************************************************************
   Function:
     void SYS_Initialize ( void *data )
@@ -147,7 +146,9 @@ const DRV_LAN9253_UTIL_INIT drvLAN9253InitData = {
 
 void SYS_Initialize ( void* data )
 {
+
     NVMCTRL_Initialize( );
+
 
   
     PORT_Initialize();
@@ -157,17 +158,22 @@ void SYS_Initialize ( void* data )
 
 
 
-    QSPI_Initialize();
+    SERCOM2_I2C_Initialize();
 
     EVSYS_Initialize();
 
-    TCC0_PWMInitialize();
+    SERCOM0_USART_Initialize();
 
-    ADC0_Initialize();
+	SYSTICK_TimerInitialize();
     EIC_Initialize();
 
     TC0_TimerInitialize();
 
+    QSPI_Initialize();
+
+    TCC0_PWMInitialize();
+
+    ADC0_Initialize();
 
 	ECAT_Util_Initialize(0, (void *)&drvLAN9253InitData);
 
